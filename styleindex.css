@@ -16,7 +16,8 @@
 .hero-image {
   background-image: url("Imagens/Hero.png");
   background-color: #cccccc;
-  height: 100vh; /* Full viewport height to match the image */
+  height: 100vh;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,14 +70,6 @@
 .job-links p {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
-}
-
-.corner-brackets {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
 }
 
 /* Black Box Section */
@@ -138,13 +131,13 @@
 
 /* Footer */
 .footer-bg {
-  background-color: #f8f9fa;
+  background-color: black;
+  color: white;
 }
 
 .social-icons a {
-  color: #333;
+  color: white;
   font-size: 1.2rem;
-  transition: color 0.3s ease;
 }
 
 .social-icons a:hover {

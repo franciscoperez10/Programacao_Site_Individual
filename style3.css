@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5e9c9;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #666; /* Fixed the double # */
+}
+
+.image5 {
+    background-image: url("Imagens/image5.png");
+    background-color: #f5b642; /* Changed to hex color */
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.image5 h1 {
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; /* Fixed the display property */
+}
+
+.card {
+    background-color: #f8f2e0;
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.card-text {
+    color: #666; /* Changed from bold to regular for most text */
+    margin-bottom: 0.5rem;
+}
+
+.card-body p.card-text:not(:nth-child(2)):not(:nth-child(3)) {
+    margin: 0;
+    padding-left: 15px;
+    position: relative;
+}
+
+.card-body p.card-text:not(:nth-child(2)):not(:nth-child(3))::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+
+.footer-bg {
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer h5 {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f5b642;
+}
+
+/* Modal styles */
+.modal-content {
+    background-color: #f8f2e0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.btn-success {
+    background-color: #8B8455;
+    border-color: #8B8455;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.btn-success:hover {
+    background-color: #74703E;
+    border-color: #74703E;
+}
+
+/* For the list inside the modal */
+.modal-body ul {
+    padding-left: 20px;
+}
+
+.modal-body ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* For the checkmark items */
+.modal-body p:has(✓) {
+    margin-bottom: 0.5rem;
+}
+
+footer .small a {
+    color: #f5b642;
+    text-decoration: none;
+}
+
+footer .small a:hover {
+    text-decoration: underline;
+}
