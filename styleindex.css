@@ -1,4 +1,8 @@
-/* Navigation */
+body {
+  font-family: 'Jura', serif;
+  overflow-x: hidden;
+}
+
 .transparent-navbar {
   background-color: transparent !important;
   position: absolute;
@@ -12,11 +16,12 @@
   margin-left: 1.5rem;
 }
 
-/* Hero Section */
+
 .hero-image {
   background-image: url("Imagens/Hero.png");
   background-color: #cccccc;
   height: 100vh;
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

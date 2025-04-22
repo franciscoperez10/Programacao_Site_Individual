@@ -1,14 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}
-
 body {
   background-color: #0e1a24;
   color: white;
   overflow-x: hidden;
+  font-family: 'Jura';
 }
 
 .container-fluid {
@@ -45,7 +39,7 @@ body {
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -59,7 +53,7 @@ body {
 .location-panel {
   width: 40%;
   display: flex;
-  justify-content: center
+  justify-content: center;
   align-items: center;
 }
 
